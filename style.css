@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=HelveticaNeue&display=swap');
+.body {
+  background-color: white;
+  margin: 0;
+  position: relative;
+  margin: 0;
+}
+.DietitianApproved {
+  width: 100%;
+  padding: 52px 0 62px;
+  background-color: #fff;
+}
+.DietitianApproved__heading.title {
+  font-size: 2.75rem;
+  color: #0b0b0b;
+  margin-bottom: 52px;
+}
+@media (max-width: 1920px){
+.card-syahmi .swiper-container {
+    padding-right: 28px;
+}
+}
+*{
+  box-sizing: inherit;
+}
+.card-syahmi.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: visible;
+  flex-wrap: wrap;
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+.card-syahmi {
+    width: 100%;
+    height: auto;
+    padding: 32px;
+    background-color: #f6f6f6;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.SlideCard_review p {
+   font-size: 16px;
+}
+
+.card-syahmi.swiper-slide {
+    
+    width: 100%;
+    padding: 32px;
+    background-color: #f6f6f6;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-syahmi.swiper-container:after {
+  
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: #fff;
+  width: calc((100vw - 1280px)/3);
+  background: -moz-linear-gradient(right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to left, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.SliderCard__pattern {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  width: 45%;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.SliderCard__top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.SliderCard__img {
+  width: 82px;
+  height: 82px;
+  margin-right: 12px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.SliderCard__top .title {
+  margin-bottom: 10px;
+}
+.title {
+  color: #363636;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+.title.is-7 {
+  font-size: .875rem;
+}
+.SliderCard__heading.title span{
+  font-weight: normal;
+}
+
+.SliderCard__sub-heading {
+  font-size: .875rem;
+  margin-top: -8px;
+}
+p.SliderCard_review {
+  font-weight: 200;
+  color: #545454;
+  font-size: 16px;
+  line-height: 24px;
+}
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: .3s opacity;
+  transform: translate3d(0,0,0);
+  z-index: 10;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+}
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+.CardSlider .swiper-container-horizontal>.swiper-pagination-bullets {
+  position: absolute;
+  bottom: auto;
+  
+}
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+/* Code Copy Start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-syahmi {
+  max-width: 1300px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+/* Code Huel Benefits */
+@media (min-width: 768px) {
+.HuelBenefits__block-right {
+    max-width: 280px;
+}
+}
+
+.HuelBenefits .column.is-4:last-of-type .HuelBenefits__block {
+  margin-bottom: 0;
+}
+
+.HuelBenefits {
+  display: block;
+  width: 100%;
+  background-color: #0b0b0b;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 75px 0;
+}
+
+.container2020 {
+  flex-grow: 1;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+  max-width: 1280px;
+}
+
+.HuelBenefits svg{
+  margin-right: 10px;
+}
+.HuelBenefits .columns {
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.HuelBenefits__sub-heading.title {
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.HuelBenefits__block {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+section {
+  display: block;
+  box-sizing: border-box;
+}
+
